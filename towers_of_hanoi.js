@@ -6,7 +6,6 @@
  * TC = O(2^n)
  */
 function tower_of_hanoi(n) {
-    // Write your code here.
     let res = []
 
     number_of_moves(n, 1, 2, 3, res);
