@@ -5,6 +5,7 @@
  *
  *  Generate Binary Strings Of Length N
  * 
+ * TC = O(2^n) n
  */
 function get_binary_strings(n) {
   let res = [];
